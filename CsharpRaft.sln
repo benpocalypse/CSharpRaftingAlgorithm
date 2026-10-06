@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedCode", "SharedCode\SharedCode.shproj", "{C639DB36-F42F-4D42-B592-879DB5069276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoServer", "EchoServer\EchoServer.csproj", "{0FC874F1-87E1-489C-9A2E-AE7836E9C108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoClient", "EchoClient\EchoClient.csproj", "{98AFB431-AF4C-4EBE-8273-8552BEF3CACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpRaftTests", "CsharpRaftTests\CsharpRaftTests.csproj", "{CCA4A0B0-CBA1-4610-BE87-F5A3BF1FC8FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyValueStore", "KeyValueStore\KeyValueStore.csproj", "{A742CB66-5951-4D69-892C-CB2F7424EADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaftNetwork", "TheRaftNetwork\RaftNetwork.csproj", "{B4BC2C01-16E7-4980-BF90-A78DFADC0CDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaftClient", "RaftClient\RaftClient.csproj", "{8828B8A9-AC81-44C1-BA3A-4499947F4C1C}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedCode\SharedCode.projitems*{0fc874f1-87e1-489c-9a2e-ae7836e9c108}*SharedItemsImports = 4
+		SharedCode\SharedCode.projitems*{98afb431-af4c-4ebe-8273-8552bef3caca}*SharedItemsImports = 4
+		SharedCode\SharedCode.projitems*{b4bc2c01-16e7-4980-bf90-a78dfadc0cdf}*SharedItemsImports = 4
+		SharedCode\SharedCode.projitems*{c639db36-f42f-4d42-b592-879db5069276}*SharedItemsImports = 13
+		SharedCode\SharedCode.projitems*{cca4a0b0-cba1-4610-be87-f5a3bf1fc8fa}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FC874F1-87E1-489C-9A2E-AE7836E9C108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC874F1-87E1-489C-9A2E-AE7836E9C108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC874F1-87E1-489C-9A2E-AE7836E9C108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC874F1-87E1-489C-9A2E-AE7836E9C108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98AFB431-AF4C-4EBE-8273-8552BEF3CACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98AFB431-AF4C-4EBE-8273-8552BEF3CACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98AFB431-AF4C-4EBE-8273-8552BEF3CACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98AFB431-AF4C-4EBE-8273-8552BEF3CACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA4A0B0-CBA1-4610-BE87-F5A3BF1FC8FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA4A0B0-CBA1-4610-BE87-F5A3BF1FC8FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA4A0B0-CBA1-4610-BE87-F5A3BF1FC8FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA4A0B0-CBA1-4610-BE87-F5A3BF1FC8FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A742CB66-5951-4D69-892C-CB2F7424EADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A742CB66-5951-4D69-892C-CB2F7424EADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A742CB66-5951-4D69-892C-CB2F7424EADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A742CB66-5951-4D69-892C-CB2F7424EADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BC2C01-16E7-4980-BF90-A78DFADC0CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BC2C01-16E7-4980-BF90-A78DFADC0CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BC2C01-16E7-4980-BF90-A78DFADC0CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BC2C01-16E7-4980-BF90-A78DFADC0CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8828B8A9-AC81-44C1-BA3A-4499947F4C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8828B8A9-AC81-44C1-BA3A-4499947F4C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8828B8A9-AC81-44C1-BA3A-4499947F4C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8828B8A9-AC81-44C1-BA3A-4499947F4C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5477C80-5BD3-4BB0-B4C8-0A1A1EAB984F}
+	EndGlobalSection
+EndGlobal
